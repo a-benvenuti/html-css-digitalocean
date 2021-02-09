@@ -1,3 +1,58 @@
 body{
   font-family: 'Roboto', sans-serif;
 }
+/* -------------MIX---------------- */
+.list-inline{
+  margin-bottom: 0px;
+}
+/* btn */
+#btn_sign{
+  color: #006aff;
+  border: 2px solid #006aff;
+  padding: 5px 10px;
+}
+#btn_sign:hover{
+  color: white;
+  background-color: #006aff;
+}
+.btn_mobile{
+  background-color: transparent;
+  color: #006aff;
+}
+.btn_mobile i{
+  font-size: 18px;
+}
+/* /btn */
+/* -------------/MIX---------------- */
+/* -------HEADER: NAV + HERO----------- */
+/* ------nav------ */
+.header_top{
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
+}
+.logo img{
+  height: 30px;
+}
+.main_nav, .login_nav{
+  display: inline-block;
+}
+.main_nav li, .login_nav li{
+  margin-right: 8px;
+}
+.main_nav li a, .login_nav li a{
+  color: hsl(221, 93%, 16%);
+  font-size: 14px;
+  font-weight:500;
+}
+.main_nav li a:hover, .login_nav li a:hover{
+  text-decoration: none;
+}
+/* ------/nav------ */
+
+/* -------/HEADER: NAV + HERO----------- */
