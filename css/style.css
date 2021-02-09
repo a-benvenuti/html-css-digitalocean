@@ -5,7 +5,7 @@ body{
 .list-inline{
   margin-bottom: 0px;
 }
-/* btn */
+/* ----------btn---------- */
 #btn_sign{
   color: #006aff;
   border: 2px solid #006aff;
@@ -22,7 +22,27 @@ body{
 .btn_mobile i{
   font-size: 18px;
 }
-/* /btn */
+.btn-account{
+  background-color: #006aff;
+  color: white;
+  border: 1px solid #006aff;
+  font-weight: 500;
+}
+.btn-account:hover{
+  color: #006aff;
+  background-color: white;
+}
+.btn-google{
+  background-color: white;
+  box-shadow: 1px 1px 2px 2px lightgrey;
+  font-weight: 500;
+}
+.btn-google span img{
+  height: 20px;
+  position: absolute;
+  left: 50px;
+}
+/* ----------/btn---------- */
 /* -------------/MIX---------------- */
 /* -------HEADER: NAV + HERO----------- */
 /* ------nav------ */
@@ -56,21 +76,50 @@ body{
 /* ------/nav------ */
 /* ------hero------ */
 .hero{
-  background-color: blue;
-  width: 100%;
+  background-image: url("../img/bg-hero.svg");
+  background-size: cover;
+  background-position: center;
   padding-top: 160px;
   padding-bottom: 80px;
 }
 .hero_text{
   color: white;
   background-color: transparent;
-  max-width: 90%;
+  max-width: 85%;
+  line-height: 25px;
+}
+.hero_text h1{
+  font-size: 50px;
+  font-weight: bold;
+}
+.hero_text p{
+  font-size: 20px;
+  font-weight: 500;
 }
 .hero_google{
-  width: 100%;
-  height: 300px;
   background-color: white;
-  border-radius: 15px;
+  border-radius: 5px;
+  padding: 20px;
+}
+.hero_google h4, .hero_google h5{
+  font-size: 25px;
+  font-weight: 700;
+}
+.hero_google h5{
+  color: #006aff;
+}
+.hero_google form{
+  text-align: left;
+}
+.hero_google form input, .hero_google form button{
+  width: 100%;
+  margin: 5px auto;
+}
+.hero_google form input{
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  font-size: 16px;
+  padding: 10px;
 }
 /* ------/hero------ */
 /* -------/HEADER: NAV + HERO----------- */
