@@ -5,6 +5,9 @@ body{
 .list-inline{
   margin-bottom: 0px;
 }
+.d_inline{
+  display: inline-block;
+}
 /* ----------btn---------- */
 #btn_sign{
   color: #006aff;
@@ -123,3 +126,37 @@ body{
 }
 /* ------/hero------ */
 /* -------/HEADER: NAV + HERO----------- */
+/* ----------------CORPO DELLA PAGINA------------- */
+/* section 1 "sponsor" */
+.sponsor{
+  background-color: #f3f5f9;
+  padding: 50px 0px;
+}
+.sponsor h5{
+  font-size: 18px;
+  color: grey;
+}
+.sponsor p, .sponsor p a{
+  color: #006aff;
+  font-size: 16px;
+  font-weight: 500;
+}
+.box_img_sponsor{
+  width: calc((100% - 24px) / 6);
+  padding: 10px;
+}
+.box_img_sponsor img{
+  width: 100%;
+  height: auto;
+}
+/* /section 1 "sponsor" */
+
+/* ----------------/CORPO DELLA PAGINA------------- */
+/* Media QUery */
+@media screen and (max-width: 768px) {
+  .box_img_sponsor{
+    width: calc((100% - 24px) / 2);
+    padding: 10px;
+  }
+}
+/* Media QUery */
