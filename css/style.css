@@ -1,6 +1,21 @@
 body{
   font-family: 'Roboto', sans-serif;
 }
+main{
+  color: hsl(221, 93%, 16%);
+}
+main p{
+  color: #5b6987;
+}
+/* typo */
+h2{
+  font-size: 36px;
+  font-weight: 700;
+}
+p{
+  font-size: 19px;
+}
+/* /typo */
 /* -------------MIX---------------- */
 .list-inline{
   margin-bottom: 0px;
@@ -8,9 +23,13 @@ body{
 .d_inline{
   display: inline-block;
 }
+.padding_main_sec{
+  padding: 50px 0px;
+}
 .container_small{
   max-width: 1000px;
   margin: auto;
+  padding: 50px 0px;
 }
 /* ----------btn---------- */
 #btn_sign{
@@ -134,7 +153,6 @@ body{
 /* section 1 "sponsor" */
 .sponsor{
   background-color: #f3f5f9;
-  padding: 50px 0px;
 }
 .sponsor h5{
   font-size: 18px;
@@ -154,7 +172,26 @@ body{
   height: auto;
 }
 /* /section 1 "sponsor" */
-
+/* section 2 "descrizione1" */
+.lat_menu{
+  list-style: none;
+  line-height: 40px;
+  border-left: 1px solid #5b6987;
+  margin-bottom: 30px;
+}
+.lat_menu li a{
+  color: #5b6987;
+  font-size: 18px;
+  font-weight: 500;
+}
+.box_descrizione1{
+  margin-bottom: 40px;
+}
+.box_descrizione1 p{
+  font-size: 14px;
+  font-weight: 500;
+}
+/* /section 2 "descrizione1" */
 /* ----------------/CORPO DELLA PAGINA------------- */
 /* Media QUery */
 @media screen and (max-width: 768px) {
