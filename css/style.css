@@ -8,6 +8,10 @@ body{
 .d_inline{
   display: inline-block;
 }
+.container_small{
+  max-width: 1000px;
+  margin: auto;
+}
 /* ----------btn---------- */
 #btn_sign{
   color: #006aff;
