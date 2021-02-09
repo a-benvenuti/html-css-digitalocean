@@ -31,6 +31,9 @@ p{
   margin: auto;
   padding: 50px 0px;
 }
+.row.equal-height > div{
+  height: 200px;
+}
 /* ----------btn---------- */
 #btn_sign{
   color: #006aff;
@@ -151,7 +154,7 @@ p{
 /* -------/HEADER: NAV + HERO----------- */
 /* ----------------CORPO DELLA PAGINA------------- */
 /* section 1 "sponsor" */
-.sponsor{
+.sponsor, .dfd{
   background-color: #f3f5f9;
 }
 .sponsor h5{
@@ -184,14 +187,14 @@ p{
   font-size: 18px;
   font-weight: 500;
 }
-.box_descrizione1{
-  margin-bottom: 40px;
-}
 .box_descrizione1 p{
   font-size: 14px;
   font-weight: 500;
 }
 /* /section 2 "descrizione1" */
+/* section carousel1 */
+
+/* /section carousel1 */
 /* ----------------/CORPO DELLA PAGINA------------- */
 /* Media QUery */
 @media screen and (max-width: 768px) {
