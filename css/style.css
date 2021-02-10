@@ -239,7 +239,12 @@ p{
   background-size: cover;
   background-position: center;
 }
-
+.box_table1{
+  padding: 10px;
+}
+.table .link a{
+  color: #00d7d2;
+}
 /* /section maps */
 /* section carousel2 */
 .item .rockerbox{
