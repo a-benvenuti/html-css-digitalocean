@@ -23,6 +23,9 @@ p{
 .d_inline{
   display: inline-block;
 }
+.d_block{
+  display: block;
+}
 .padding_main_sec{
   padding: 50px 0px;
 }
@@ -225,6 +228,24 @@ p{
   margin-bottom: -30px;
 }
 /* /section carousel1 */
+
+/* section carousel2 */
+.item .rockerbox{
+  width: 75%;
+  margin: auto;
+  background-color: white;
+  border-radius: 10px;
+}
+.set_img_rockrbox{
+  width: 50%;
+  margin: auto;
+}
+.set_img_rockrbox img{
+  width: 100%;
+  height: auto;
+  padding-bottom: 30px;
+}
+/* /section carousel2 */
 /* ----------------/CORPO DELLA PAGINA------------- */
 /* Media QUery */
 @media screen and (max-width: 768px) {
