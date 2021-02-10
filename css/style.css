@@ -193,7 +193,37 @@ p{
 }
 /* /section 2 "descrizione1" */
 /* section carousel1 */
-
+.carousel{
+  width: 80%;
+  margin: auto;
+}
+.item img{
+  width: 75%;
+  margin: auto;
+}
+.carousel-control{
+  color: hsl(221, 93%, 16%);
+  text-shadow: none;
+  background-color: transparent;
+  opacity: 1;
+  filter: none;
+}
+.carousel-control.left, .carousel-control.right{
+  background-image: none;
+}
+.carousel-indicators li{
+  border: 1px solid #006aff;
+}
+.carousel-indicators .active{
+  background-color: #006aff;
+  border: none;
+}
+.carousel-indicators h6{
+  font-size: 14px;
+}
+.carousel-indicators{
+  margin-bottom: -30px;
+}
 /* /section carousel1 */
 /* ----------------/CORPO DELLA PAGINA------------- */
 /* Media QUery */
