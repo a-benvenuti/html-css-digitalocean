@@ -17,6 +17,16 @@ p{
 }
 /* /typo */
 /* -------------MIX---------------- */
+.border_table{
+  border-top: 1px solid white;
+}
+/* SISTEMARE QUI!!!!!!! */
+/* .table > tbody > tr > td,
+.table > tbody > tr > th,
+.table > thead > tr > td,
+.table > thead > tr > th{
+  border-top: none;
+} */
 .list-inline{
   margin-bottom: 0px;
 }
@@ -213,6 +223,11 @@ p{
   font-size: 14px;
   font-weight: 500;
 }
+.box_descrizione1 a{
+  color: #006aff;
+  font-size: 16px;
+  font-weight: 500;
+}
 /* /section 2 "descrizione1" */
 /* section carousel1 */
 .carousel{
@@ -260,6 +275,7 @@ p{
 }
 .table .link a{
   color: #00d7d2;
+  text-align: right;
 }
 /* /section maps */
 /* section carousel2 */
@@ -333,11 +349,79 @@ footer{
   padding-left: 0;
 }
 /* -----------------/PIE DI PAGINA--------------- */
+/* shark */
+.shark{
+  position: fixed;
+  z-index: 20;
+  bottom: 20px;
+  right: 20px;
+}
+.testo_shark_1{
+  position: relative;
+  width:300px;
+  display: inline-block;
+  background-color: #ececec;
+  color: hsl(221, 93%, 16%);
+  border-radius: 10px;
+  padding: 10px;
+}
+.testo_shark_2{
+  display: none;
+  position: relative;
+  width:300px;
+  background-color: #ececec;
+  color: hsl(221, 93%, 16%);
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 10px;
+}
+.testo_shark_1 p, .testo_shark_2 p{
+  font-size: 14px;
+}
+.testo_shark_1 i{
+  position: absolute;
+  right: -3%;
+  bottom: 3%;
+  font-size: 30px;
+  color: #ececec;
+}
+.testo_shark_2 i{
+  position: absolute;
+  top: -25%;
+  left: 5%;
+  font-size: 30px;
+  color: #ececec;
+}
+.shark_img{
+  height: 80px;
+  width: 80px;
+  display: inline-block;
+  margin-left: 10px;
+}
+.shark_img img{
+  width: 100%;
+  background-color: #014fd5;
+  border-radius: 10px;
+  padding: 10px 0px;
+}
+/* /shark */
 /* Media QUery */
 @media screen and (max-width: 768px) {
   .box_img_sponsor{
     width: calc((100% - 24px) / 2);
     padding: 10px;
+  }
+  .shark{
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 20;
+  }
+  .testo_shark_2{
+    display: block;
+  }
+  .testo_shark_1{
+    display: none;
   }
 }
 /* Media QUery */
