@@ -14,35 +14,30 @@ p{
 }
 /* /typo */
 /* COLORI */
-/* blu chiaro */
 .first_color_text{
   color: #006aff;
 }
 .first_color_back{
   background-color: #006aff;
 }
-/* blu scuro */
 .second_color_text{
   color: hsl(221, 93%, 16%);
 }
 .second_color_back{
   background-color: hsl(221, 93%, 16%);
 }
-/* grigio scuro */
 .third_color_text{
   color: #5b6987;
 }
 .third_color_back{
   background-color: #5b6987;
 }
-/* grigio chiaro */
 .fourth_color_text{
   color: #f3f5f9;
 }
 .fourth_color_back{
   background-color: #f3f5f9;
 }
-/* bianco */
 .white_color_text{
   color: white;
 }
