@@ -363,7 +363,6 @@ p{
   font-weight: bold;
 }
 .testo_shark i {
-  color: white;
   position: absolute;
   right: -3%;
   bottom: 3%;
@@ -396,7 +395,6 @@ p{
   right: -10px;
 }
 .text_notifica{
-  color: white;
   width: 15px;
   height: 100%;
   margin:auto;
